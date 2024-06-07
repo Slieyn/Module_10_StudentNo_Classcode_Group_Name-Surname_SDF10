@@ -1,0 +1,30 @@
+*{
+margin: 0px;
+padding:0px;
+font-size: 25px;
+background-color: blueviolet;
+box-sizing: border-box;
+margin-top: auto;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.content .card{
+    flex: 1;
+    margin: 40px 20px;
+
+}
+.content .card img{
+    width: 400px;
+    height: 400px;
+}
+
+.heading {
+    margin-bottom: 10px;
+}
